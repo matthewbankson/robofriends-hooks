@@ -5,7 +5,7 @@ import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css';
 
-function App() {
+const App = () => {
   const [robots, setRobots] = useState([]);
   const [searchfield, setSearchfield] = useState('');
 
@@ -36,6 +36,6 @@ function App() {
       </Scroll>
     </div>
   );
-}
+};
 
 export default App;
